@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 setup(
     name = "django-remote",
     version = "1.0",
-    url = 'http://ondrejsika.com/doc/django-remote',
+    url = 'http://ondrejsika.com/docs/django-remote',
     download_url = 'https://github.com/sikaondrej/django-remote',
     license = 'GNU LGPL v.3',
     description = "",
