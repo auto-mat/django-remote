@@ -10,8 +10,8 @@ function DjangoRemoteAjax(){
             type: type,
             xhrFields: {withCredentials: true},
             success: success,
-            error: function (data){
-                success(data.responseText)  ;      
+            error: function (xhr, ajaxOptions, thrownError) {
+                success("networking error: "+thrownError+'\n'+status+'\n'+xhr.statusText);
             }
         });
     }
