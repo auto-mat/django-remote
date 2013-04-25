@@ -12,7 +12,7 @@ function DjangoRemoteAjax(){
             success: success,
             error: function (data){
                 success(data.responseText)  ;      
-            },
+            }
         });
     }
 
