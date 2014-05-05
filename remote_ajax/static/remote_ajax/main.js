@@ -9,7 +9,7 @@ function DjangoRemoteAjax(){
                url: url,
                data: data,
                type: type,
-               cache: false,
+               cache: true,
                contentType: false,
                processData: false,
                xhrFields: {withCredentials: true},
